@@ -1,0 +1,888 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|c:\\users\\msi\\source\\repos\\recruitmentapi\\recruitmentapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|solutionrelative:recruitmentapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|c:\\users\\msi\\source\\repos\\recruitmentapi\\recruitmentapi\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|solutionrelative:recruitmentapi\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|c:\\users\\msi\\source\\repos\\recruitmentapi\\recruitmentapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|solutionrelative:recruitmentapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|c:\\users\\msi\\source\\repos\\recruitmentapi\\recruitmentapi\\controllers\\aicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|solutionrelative:recruitmentapi\\controllers\\aicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|c:\\users\\msi\\source\\repos\\recruitmentapi\\recruitmentapi\\services\\aiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|solutionrelative:recruitmentapi\\services\\aiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|c:\\users\\msi\\source\\repos\\recruitmentapi\\recruitmentapi\\services\\interfaces\\iaiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|solutionrelative:recruitmentapi\\services\\interfaces\\iaiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|c:\\users\\msi\\source\\repos\\recruitmentapi\\recruitmentapi\\recruitmentapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|solutionrelative:recruitmentapi\\recruitmentapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|c:\\users\\msi\\source\\repos\\recruitmentapi\\recruitmentapi\\services\\interviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|solutionrelative:recruitmentapi\\services\\interviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|c:\\users\\msi\\source\\repos\\recruitmentapi\\recruitmentapi\\services\\calendarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|solutionrelative:recruitmentapi\\services\\calendarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|c:\\users\\msi\\source\\repos\\recruitmentapi\\recruitmentapi\\controllers\\interviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|solutionrelative:recruitmentapi\\controllers\\interviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|c:\\users\\msi\\source\\repos\\recruitmentapi\\recruitmentapi\\controllers\\analyticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|solutionrelative:recruitmentapi\\controllers\\analyticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|c:\\users\\msi\\source\\repos\\recruitmentapi\\recruitmentapi\\controllers\\recommendationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|solutionrelative:recruitmentapi\\controllers\\recommendationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|c:\\users\\msi\\source\\repos\\recruitmentapi\\recruitmentapi\\services\\matchscoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|solutionrelative:recruitmentapi\\services\\matchscoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|c:\\users\\msi\\source\\repos\\recruitmentapi\\recruitmentapi\\controllers\\resumeanalysiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|solutionrelative:recruitmentapi\\controllers\\resumeanalysiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|c:\\users\\msi\\source\\repos\\recruitmentapi\\recruitmentapi\\services\\resumeanalysisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|solutionrelative:recruitmentapi\\services\\resumeanalysisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|c:\\users\\msi\\source\\repos\\recruitmentapi\\recruitmentapi\\models\\entities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|solutionrelative:recruitmentapi\\models\\entities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|c:\\users\\msi\\source\\repos\\recruitmentapi\\recruitmentapi\\services\\skillextractionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|solutionrelative:recruitmentapi\\services\\skillextractionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|c:\\users\\msi\\source\\repos\\recruitmentapi\\recruitmentapi\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|solutionrelative:recruitmentapi\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|c:\\users\\msi\\source\\repos\\recruitmentapi\\recruitmentapi\\controllers\\applicationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|solutionrelative:recruitmentapi\\controllers\\applicationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|c:\\users\\msi\\source\\repos\\recruitmentapi\\recruitmentapi\\services\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|solutionrelative:recruitmentapi\\services\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|c:\\users\\msi\\source\\repos\\recruitmentapi\\recruitmentapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|solutionrelative:recruitmentapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|c:\\users\\msi\\source\\repos\\recruitmentapi\\recruitmentapi\\dtos\\candidateprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|solutionrelative:recruitmentapi\\dtos\\candidateprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|c:\\users\\msi\\source\\repos\\recruitmentapi\\recruitmentapi\\dtos\\candidateprofiledtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|solutionrelative:recruitmentapi\\dtos\\candidateprofiledtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|c:\\users\\msi\\source\\repos\\recruitmentapi\\recruitmentapi\\repositories\\jobrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|solutionrelative:recruitmentapi\\repositories\\jobrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|c:\\users\\msi\\source\\repos\\recruitmentapi\\recruitmentapi\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|solutionrelative:recruitmentapi\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|c:\\users\\msi\\source\\repos\\recruitmentapi\\recruitmentapi\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|solutionrelative:recruitmentapi\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|c:\\users\\msi\\source\\repos\\recruitmentapi\\recruitmentapi\\services\\interfaces\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|solutionrelative:recruitmentapi\\services\\interfaces\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|c:\\users\\msi\\source\\repos\\recruitmentapi\\recruitmentapi\\repositories\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|solutionrelative:recruitmentapi\\repositories\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|c:\\users\\msi\\source\\repos\\recruitmentapi\\recruitmentapi\\repositories\\interfaces\\iadminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|solutionrelative:recruitmentapi\\repositories\\interfaces\\iadminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|c:\\users\\msi\\source\\repos\\recruitmentapi\\recruitmentapi\\dtos\\admindtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|solutionrelative:recruitmentapi\\dtos\\admindtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|c:\\users\\msi\\source\\repos\\recruitmentapi\\recruitmentapi\\controllers\\evaluationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|solutionrelative:recruitmentapi\\controllers\\evaluationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|c:\\users\\msi\\source\\repos\\recruitmentapi\\recruitmentapi\\services\\evaluationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|solutionrelative:recruitmentapi\\services\\evaluationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|c:\\users\\msi\\source\\repos\\recruitmentapi\\recruitmentapi\\services\\interfaces\\ievaluationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|solutionrelative:recruitmentapi\\services\\interfaces\\ievaluationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|c:\\users\\msi\\source\\repos\\recruitmentapi\\recruitmentapi\\repositories\\evaluationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|solutionrelative:recruitmentapi\\repositories\\evaluationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|c:\\users\\msi\\source\\repos\\recruitmentapi\\recruitmentapi\\repositories\\interfaces\\ievaluationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|solutionrelative:recruitmentapi\\repositories\\interfaces\\ievaluationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|c:\\users\\msi\\source\\repos\\recruitmentapi\\recruitmentapi\\services\\interfaces\\iinterviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|solutionrelative:recruitmentapi\\services\\interfaces\\iinterviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|c:\\users\\msi\\source\\repos\\recruitmentapi\\recruitmentapi\\repositories\\interviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|solutionrelative:recruitmentapi\\repositories\\interviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|c:\\users\\msi\\source\\repos\\recruitmentapi\\recruitmentapi\\repositories\\interfaces\\iinterviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|solutionrelative:recruitmentapi\\repositories\\interfaces\\iinterviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|c:\\users\\msi\\source\\repos\\recruitmentapi\\recruitmentapi\\dtos\\interviewdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|solutionrelative:recruitmentapi\\dtos\\interviewdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|c:\\users\\msi\\source\\repos\\recruitmentapi\\recruitmentapi\\services\\interfaces\\iapplicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|solutionrelative:recruitmentapi\\services\\interfaces\\iapplicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|c:\\users\\msi\\source\\repos\\recruitmentapi\\recruitmentapi\\services\\applicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|solutionrelative:recruitmentapi\\services\\applicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|c:\\users\\msi\\source\\repos\\recruitmentapi\\recruitmentapi\\repositories\\interfaces\\ijobrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|solutionrelative:recruitmentapi\\repositories\\interfaces\\ijobrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|c:\\users\\msi\\source\\repos\\recruitmentapi\\recruitmentapi\\repositories\\applicationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|solutionrelative:recruitmentapi\\repositories\\applicationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|c:\\users\\msi\\source\\repos\\recruitmentapi\\recruitmentapi\\services\\interfaces\\iapplicationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|solutionrelative:recruitmentapi\\services\\interfaces\\iapplicationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|c:\\users\\msi\\source\\repos\\recruitmentapi\\recruitmentapi\\controllers\\jobscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|solutionrelative:recruitmentapi\\controllers\\jobscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|c:\\users\\msi\\source\\repos\\recruitmentapi\\recruitmentapi\\services\\jobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|solutionrelative:recruitmentapi\\services\\jobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|c:\\users\\msi\\source\\repos\\recruitmentapi\\recruitmentapi\\dtos\\jobdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|solutionrelative:recruitmentapi\\dtos\\jobdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|c:\\users\\msi\\source\\repos\\recruitmentapi\\recruitmentapi\\services\\interfaces\\imatchscoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|solutionrelative:recruitmentapi\\services\\interfaces\\imatchscoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|c:\\users\\msi\\source\\repos\\recruitmentapi\\recruitmentapi\\services\\interfaces\\ijobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|solutionrelative:recruitmentapi\\services\\interfaces\\ijobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|c:\\users\\msi\\source\\repos\\recruitmentapi\\recruitmentapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|solutionrelative:recruitmentapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|c:\\users\\msi\\source\\repos\\recruitmentapi\\recruitmentapi\\dtos\\authdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|solutionrelative:recruitmentapi\\dtos\\authdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|c:\\users\\msi\\source\\repos\\recruitmentapi\\recruitmentapi\\migrations\\20260711191802_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|solutionrelative:recruitmentapi\\migrations\\20260711191802_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|c:\\users\\msi\\source\\repos\\recruitmentapi\\recruitmentapi\\migrations\\20260724003537_addcandidateprofilefields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90E8B77-AE58-4FB7-8830-A784639DDE98}|RecruitmentAPI\\RecruitmentAPI.csproj|solutionrelative:recruitmentapi\\migrations\\20260724003537_addcandidateprofilefields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Program.cs",
+              "RelativeDocumentMoniker": "RecruitmentAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Program.cs",
+              "RelativeToolTip": "RecruitmentAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAASwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-11T19:04:33.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "RecruitmentAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\appsettings.json",
+              "RelativeToolTip": "RecruitmentAPI\\appsettings.json",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAkwCIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-11T19:02:45.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AIController.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Controllers\\AIController.cs",
+              "RelativeDocumentMoniker": "RecruitmentAPI\\Controllers\\AIController.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Controllers\\AIController.cs",
+              "RelativeToolTip": "RecruitmentAPI\\Controllers\\AIController.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAA6wFgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T12:03:06.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "RecruitmentAPI\\Services\\TokenService.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Services\\TokenService.cs",
+              "RelativeToolTip": "RecruitmentAPI\\Services\\TokenService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAkwCoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T06:13:03.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IAIService.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Services\\Interfaces\\IAIService.cs",
+              "RelativeDocumentMoniker": "RecruitmentAPI\\Services\\Interfaces\\IAIService.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Services\\Interfaces\\IAIService.cs",
+              "RelativeToolTip": "RecruitmentAPI\\Services\\Interfaces\\IAIService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T12:01:06.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AIService.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Services\\AIService.cs",
+              "RelativeDocumentMoniker": "RecruitmentAPI\\Services\\AIService.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Services\\AIService.cs",
+              "RelativeToolTip": "RecruitmentAPI\\Services\\AIService.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAqwFkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T12:01:30.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "InterviewService.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Services\\InterviewService.cs",
+              "RelativeDocumentMoniker": "RecruitmentAPI\\Services\\InterviewService.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Services\\InterviewService.cs",
+              "RelativeToolTip": "RecruitmentAPI\\Services\\InterviewService.cs",
+              "ViewState": "AgIAADMBAAAAAAAAAAAkwEcBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-19T08:46:03.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RecruitmentAPI.csproj",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\RecruitmentAPI.csproj",
+              "RelativeDocumentMoniker": "RecruitmentAPI\\RecruitmentAPI.csproj",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\RecruitmentAPI.csproj",
+              "RelativeToolTip": "RecruitmentAPI\\RecruitmentAPI.csproj",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAUwBoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-11T18:54:42.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "InterviewsController.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Controllers\\InterviewsController.cs",
+              "RelativeDocumentMoniker": "RecruitmentAPI\\Controllers\\InterviewsController.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Controllers\\InterviewsController.cs",
+              "RelativeToolTip": "RecruitmentAPI\\Controllers\\InterviewsController.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAiwGAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T06:46:03.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CalendarService.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Services\\CalendarService.cs",
+              "RelativeDocumentMoniker": "RecruitmentAPI\\Services\\CalendarService.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Services\\CalendarService.cs",
+              "RelativeToolTip": "RecruitmentAPI\\Services\\CalendarService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAqwCsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T11:06:34.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AnalyticsController.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Controllers\\AnalyticsController.cs",
+              "RelativeDocumentMoniker": "RecruitmentAPI\\Controllers\\AnalyticsController.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Controllers\\AnalyticsController.cs",
+              "RelativeToolTip": "RecruitmentAPI\\Controllers\\AnalyticsController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAiwEMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T10:53:26.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RecommendationController.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Controllers\\RecommendationController.cs",
+              "RelativeDocumentMoniker": "RecruitmentAPI\\Controllers\\RecommendationController.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Controllers\\RecommendationController.cs",
+              "RelativeToolTip": "RecruitmentAPI\\Controllers\\RecommendationController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAqwFcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T10:43:45.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ResumeAnalysisController.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Controllers\\ResumeAnalysisController.cs",
+              "RelativeDocumentMoniker": "RecruitmentAPI\\Controllers\\ResumeAnalysisController.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Controllers\\ResumeAnalysisController.cs",
+              "RelativeToolTip": "RecruitmentAPI\\Controllers\\ResumeAnalysisController.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAqwG4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T10:37:56.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MatchScoreService.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Services\\MatchScoreService.cs",
+              "RelativeDocumentMoniker": "RecruitmentAPI\\Services\\MatchScoreService.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Services\\MatchScoreService.cs",
+              "RelativeToolTip": "RecruitmentAPI\\Services\\MatchScoreService.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAqwCwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-19T08:00:48.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ResumeAnalysisService.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Services\\ResumeAnalysisService.cs",
+              "RelativeDocumentMoniker": "RecruitmentAPI\\Services\\ResumeAnalysisService.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Services\\ResumeAnalysisService.cs",
+              "RelativeToolTip": "RecruitmentAPI\\Services\\ResumeAnalysisService.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAqwDoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T10:36:21.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SkillExtractionService.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Services\\SkillExtractionService.cs",
+              "RelativeDocumentMoniker": "RecruitmentAPI\\Services\\SkillExtractionService.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Services\\SkillExtractionService.cs",
+              "RelativeToolTip": "RecruitmentAPI\\Services\\SkillExtractionService.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAiwEQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-13T08:55:08.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Entities.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Models\\Entities.cs",
+              "RelativeDocumentMoniker": "RecruitmentAPI\\Models\\Entities.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Models\\Entities.cs",
+              "RelativeToolTip": "RecruitmentAPI\\Models\\Entities.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAAA4wJAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-11T18:56:40.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ApplicationsController.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Controllers\\ApplicationsController.cs",
+              "RelativeDocumentMoniker": "RecruitmentAPI\\Controllers\\ApplicationsController.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Controllers\\ApplicationsController.cs",
+              "RelativeToolTip": "RecruitmentAPI\\Controllers\\ApplicationsController.cs",
+              "ViewState": "AgIAAO0BAAAAAAAAAAAowOwBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T06:41:02.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "RecruitmentAPI\\Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Services\\EmailService.cs",
+              "RelativeToolTip": "RecruitmentAPI\\Services\\EmailService.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAqwGEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T06:49:02.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Services\\Interfaces\\IEmailService.cs",
+              "RelativeDocumentMoniker": "RecruitmentAPI\\Services\\Interfaces\\IEmailService.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Services\\Interfaces\\IEmailService.cs",
+              "RelativeToolTip": "RecruitmentAPI\\Services\\Interfaces\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T06:49:26.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "RecruitmentAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "RecruitmentAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAgwE0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T06:18:48.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CandidateProfileController.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\DTOs\\CandidateProfileController.cs",
+              "RelativeDocumentMoniker": "RecruitmentAPI\\DTOs\\CandidateProfileController.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\DTOs\\CandidateProfileController.cs",
+              "RelativeToolTip": "RecruitmentAPI\\DTOs\\CandidateProfileController.cs",
+              "ViewState": "AgIAAM8BAAAAAAAAAAAcwOkBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-13T09:02:06.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CandidateProfileDtos.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\DTOs\\CandidateProfileDtos.cs",
+              "RelativeDocumentMoniker": "RecruitmentAPI\\DTOs\\CandidateProfileDtos.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\DTOs\\CandidateProfileDtos.cs",
+              "RelativeToolTip": "RecruitmentAPI\\DTOs\\CandidateProfileDtos.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAA5wFQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-13T08:56:11.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "20260724003537_AddCandidateProfileFields.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Migrations\\20260724003537_AddCandidateProfileFields.cs",
+              "RelativeDocumentMoniker": "RecruitmentAPI\\Migrations\\20260724003537_AddCandidateProfileFields.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Migrations\\20260724003537_AddCandidateProfileFields.cs",
+              "RelativeToolTip": "RecruitmentAPI\\Migrations\\20260724003537_AddCandidateProfileFields.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T00:35:42.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "JobRepository.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Repositories\\JobRepository.cs",
+              "RelativeDocumentMoniker": "RecruitmentAPI\\Repositories\\JobRepository.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Repositories\\JobRepository.cs",
+              "RelativeToolTip": "RecruitmentAPI\\Repositories\\JobRepository.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAowEoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-19T07:48:03.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "EvaluationService.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Services\\EvaluationService.cs",
+              "RelativeDocumentMoniker": "RecruitmentAPI\\Services\\EvaluationService.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Services\\EvaluationService.cs",
+              "RelativeToolTip": "RecruitmentAPI\\Services\\EvaluationService.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAqwFgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-19T08:57:53.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IEvaluationService.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Services\\Interfaces\\IEvaluationService.cs",
+              "RelativeDocumentMoniker": "RecruitmentAPI\\Services\\Interfaces\\IEvaluationService.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Services\\Interfaces\\IEvaluationService.cs",
+              "RelativeToolTip": "RecruitmentAPI\\Services\\Interfaces\\IEvaluationService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAwwB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-19T08:57:20.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AdminDtos.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\DTOs\\AdminDtos.cs",
+              "RelativeDocumentMoniker": "RecruitmentAPI\\DTOs\\AdminDtos.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\DTOs\\AdminDtos.cs",
+              "RelativeToolTip": "RecruitmentAPI\\DTOs\\AdminDtos.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA5wDAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T22:02:38.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IAdminRepository.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Repositories\\Interfaces\\IAdminRepository.cs",
+              "RelativeDocumentMoniker": "RecruitmentAPI\\Repositories\\Interfaces\\IAdminRepository.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Repositories\\Interfaces\\IAdminRepository.cs",
+              "RelativeToolTip": "RecruitmentAPI\\Repositories\\Interfaces\\IAdminRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T22:04:02.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "EvaluationsController.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Controllers\\EvaluationsController.cs",
+              "RelativeDocumentMoniker": "RecruitmentAPI\\Controllers\\EvaluationsController.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Controllers\\EvaluationsController.cs",
+              "RelativeToolTip": "RecruitmentAPI\\Controllers\\EvaluationsController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAUwD4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T06:46:59.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "RecruitmentAPI\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "RecruitmentAPI\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAA5wE8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T22:01:13.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AdminRepository.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Repositories\\AdminRepository.cs",
+              "RelativeDocumentMoniker": "RecruitmentAPI\\Repositories\\AdminRepository.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Repositories\\AdminRepository.cs",
+              "RelativeToolTip": "RecruitmentAPI\\Repositories\\AdminRepository.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAowGUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T22:01:55.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AdminService.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Services\\AdminService.cs",
+              "RelativeDocumentMoniker": "RecruitmentAPI\\Services\\AdminService.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Services\\AdminService.cs",
+              "RelativeToolTip": "RecruitmentAPI\\Services\\AdminService.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAowGMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T22:04:55.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IAdminService.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Services\\Interfaces\\IAdminService.cs",
+              "RelativeDocumentMoniker": "RecruitmentAPI\\Services\\Interfaces\\IAdminService.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Services\\Interfaces\\IAdminService.cs",
+              "RelativeToolTip": "RecruitmentAPI\\Services\\Interfaces\\IAdminService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T22:04:37.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "EvaluationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Repositories\\EvaluationRepository.cs",
+              "RelativeDocumentMoniker": "RecruitmentAPI\\Repositories\\EvaluationRepository.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Repositories\\EvaluationRepository.cs",
+              "RelativeToolTip": "RecruitmentAPI\\Repositories\\EvaluationRepository.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAqwFAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-19T08:55:55.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IEvaluationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Repositories\\Interfaces\\IEvaluationRepository.cs",
+              "RelativeDocumentMoniker": "RecruitmentAPI\\Repositories\\Interfaces\\IEvaluationRepository.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Repositories\\Interfaces\\IEvaluationRepository.cs",
+              "RelativeToolTip": "RecruitmentAPI\\Repositories\\Interfaces\\IEvaluationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-19T08:55:25.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IInterviewService.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Services\\Interfaces\\IInterviewService.cs",
+              "RelativeDocumentMoniker": "RecruitmentAPI\\Services\\Interfaces\\IInterviewService.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Services\\Interfaces\\IInterviewService.cs",
+              "RelativeToolTip": "RecruitmentAPI\\Services\\Interfaces\\IInterviewService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-19T08:45:33.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "InterviewRepository.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Repositories\\InterviewRepository.cs",
+              "RelativeDocumentMoniker": "RecruitmentAPI\\Repositories\\InterviewRepository.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Repositories\\InterviewRepository.cs",
+              "RelativeToolTip": "RecruitmentAPI\\Repositories\\InterviewRepository.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAowFgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-19T08:41:25.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IInterviewRepository.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Repositories\\Interfaces\\IInterviewRepository.cs",
+              "RelativeDocumentMoniker": "RecruitmentAPI\\Repositories\\Interfaces\\IInterviewRepository.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Repositories\\Interfaces\\IInterviewRepository.cs",
+              "RelativeToolTip": "RecruitmentAPI\\Repositories\\Interfaces\\IInterviewRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-19T08:40:37.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "InterviewDtos.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\DTOs\\InterviewDtos.cs",
+              "RelativeDocumentMoniker": "RecruitmentAPI\\DTOs\\InterviewDtos.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\DTOs\\InterviewDtos.cs",
+              "RelativeToolTip": "RecruitmentAPI\\DTOs\\InterviewDtos.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T06:44:34.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IApplicationService.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Services\\Interfaces\\IApplicationService.cs",
+              "RelativeDocumentMoniker": "RecruitmentAPI\\Services\\Interfaces\\IApplicationService.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Services\\Interfaces\\IApplicationService.cs",
+              "RelativeToolTip": "RecruitmentAPI\\Services\\Interfaces\\IApplicationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-19T08:29:11.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ApplicationService.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Services\\ApplicationService.cs",
+              "RelativeDocumentMoniker": "RecruitmentAPI\\Services\\ApplicationService.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Services\\ApplicationService.cs",
+              "RelativeToolTip": "RecruitmentAPI\\Services\\ApplicationService.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAiwG8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-19T08:29:43.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IJobRepository.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Repositories\\Interfaces\\IJobRepository.cs",
+              "RelativeDocumentMoniker": "RecruitmentAPI\\Repositories\\Interfaces\\IJobRepository.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Repositories\\Interfaces\\IJobRepository.cs",
+              "RelativeToolTip": "RecruitmentAPI\\Repositories\\Interfaces\\IJobRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAwwB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-19T07:37:50.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ApplicationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Repositories\\ApplicationRepository.cs",
+              "RelativeDocumentMoniker": "RecruitmentAPI\\Repositories\\ApplicationRepository.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Repositories\\ApplicationRepository.cs",
+              "RelativeToolTip": "RecruitmentAPI\\Repositories\\ApplicationRepository.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAmwEsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-19T08:28:39.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "IApplicationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Services\\Interfaces\\IApplicationRepository.cs",
+              "RelativeDocumentMoniker": "RecruitmentAPI\\Services\\Interfaces\\IApplicationRepository.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Services\\Interfaces\\IApplicationRepository.cs",
+              "RelativeToolTip": "RecruitmentAPI\\Services\\Interfaces\\IApplicationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAmwBgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-19T08:26:25.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "JobsController.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Controllers\\JobsController.cs",
+              "RelativeDocumentMoniker": "RecruitmentAPI\\Controllers\\JobsController.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Controllers\\JobsController.cs",
+              "RelativeToolTip": "RecruitmentAPI\\Controllers\\JobsController.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAmwGMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T06:39:52.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "JobService.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Services\\JobService.cs",
+              "RelativeDocumentMoniker": "RecruitmentAPI\\Services\\JobService.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Services\\JobService.cs",
+              "RelativeToolTip": "RecruitmentAPI\\Services\\JobService.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAmwIcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-19T07:52:42.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "JobDtos.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\DTOs\\JobDtos.cs",
+              "RelativeDocumentMoniker": "RecruitmentAPI\\DTOs\\JobDtos.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\DTOs\\JobDtos.cs",
+              "RelativeToolTip": "RecruitmentAPI\\DTOs\\JobDtos.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T06:37:50.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "IMatchScoreService.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Services\\Interfaces\\IMatchScoreService.cs",
+              "RelativeDocumentMoniker": "RecruitmentAPI\\Services\\Interfaces\\IMatchScoreService.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Services\\Interfaces\\IMatchScoreService.cs",
+              "RelativeToolTip": "RecruitmentAPI\\Services\\Interfaces\\IMatchScoreService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-19T08:00:07.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "IJobService.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Services\\Interfaces\\IJobService.cs",
+              "RelativeDocumentMoniker": "RecruitmentAPI\\Services\\Interfaces\\IJobService.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Services\\Interfaces\\IJobService.cs",
+              "RelativeToolTip": "RecruitmentAPI\\Services\\Interfaces\\IJobService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-19T07:44:56.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "RecruitmentAPI\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "RecruitmentAPI\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAmwDoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-11T19:00:32.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "AuthDtos.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\DTOs\\AuthDtos.cs",
+              "RelativeDocumentMoniker": "RecruitmentAPI\\DTOs\\AuthDtos.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\DTOs\\AuthDtos.cs",
+              "RelativeToolTip": "RecruitmentAPI\\DTOs\\AuthDtos.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T06:11:11.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "20260711191802_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Migrations\\20260711191802_InitialCreate.cs",
+              "RelativeDocumentMoniker": "RecruitmentAPI\\Migrations\\20260711191802_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\RecruitmentAPI\\RecruitmentAPI\\Migrations\\20260711191802_InitialCreate.cs",
+              "RelativeToolTip": "RecruitmentAPI\\Migrations\\20260711191802_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-11T19:18:02.533Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
