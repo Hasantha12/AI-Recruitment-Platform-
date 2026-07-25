@@ -1,0 +1,213 @@
+<div class="register-page">
+
+
+  <div class="register-card">
+
+
+    <div class="brand">
+
+      <div class="logo">
+        AI
+      </div>
+
+      <h1>
+        RecruitAI
+      </h1>
+
+    </div>
+
+
+
+    <h2>
+      Create Account 🚀
+    </h2>
+
+
+    <p class="subtitle">
+      Join our AI-powered recruitment platform
+    </p>
+
+
+
+
+    <form
+      (ngSubmit)="onSubmit()"
+      #registerForm="ngForm">
+
+
+
+      <!-- Full Name -->
+
+      <div class="form-group">
+
+        <label>
+          Full Name
+        </label>
+
+        <input
+          type="text"
+          name="fullName"
+          [(ngModel)]="fullName"
+          required
+          placeholder="Enter your full name">
+
+      </div>
+
+
+
+
+
+      <!-- Email -->
+
+      <div class="form-group">
+
+        <label>
+          Email Address
+        </label>
+
+        <input
+          type="email"
+          name="email"
+          [(ngModel)]="email"
+          required
+          placeholder="Enter your email">
+
+      </div>
+
+
+
+
+
+
+      <!-- Password -->
+
+      <div class="form-group">
+
+        <label>
+          Password
+        </label>
+
+        <input
+          type="password"
+          name="password"
+          [(ngModel)]="password"
+          required
+          placeholder="Create password">
+
+      </div>
+
+
+
+
+
+
+      <!-- Role -->
+
+      <div class="form-group">
+
+        <label>
+          Select Role
+        </label>
+
+
+        <select
+          name="role"
+          [(ngModel)]="role">
+
+
+          <option value="Candidate">
+            Candidate
+          </option>
+
+
+          <option value="Recruiter">
+            Recruiter
+          </option>
+
+
+          <option value="HiringManager">
+            Hiring Manager
+          </option>
+
+
+        </select>
+
+
+      </div>
+
+
+
+
+
+
+      <!-- Messages -->
+
+      <div
+        class="success-message"
+        *ngIf="successMessage">
+
+        {{successMessage}}
+
+      </div>
+
+
+
+      <div
+        class="error-message"
+        *ngIf="errorMessage">
+
+        {{errorMessage}}
+
+      </div>
+
+
+
+
+
+
+
+      <!-- Button -->
+
+      <button
+        type="submit"
+        [disabled]="!registerForm.valid || isLoading">
+
+
+        {{ isLoading ? 'Creating Account...' : 'Create Account' }}
+
+
+      </button>
+
+
+
+
+
+    </form>
+
+
+
+
+
+    <p class="login-link">
+
+
+      Already have an account?
+
+
+      <a routerLink="/login">
+
+        Login
+
+      </a>
+
+
+    </p>
+
+
+
+
+
+  </div>
+
+
+</div>

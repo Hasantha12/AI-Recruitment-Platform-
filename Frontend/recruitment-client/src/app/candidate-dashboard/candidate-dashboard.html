@@ -1,0 +1,783 @@
+<div class="dashboard">
+
+
+  <!-- Header -->
+
+  <header class="dashboard-header">
+
+    <div class="brand">
+
+      <div class="logo">
+        AI
+      </div>
+
+      <span>
+        RecruitAI
+      </span>
+
+    </div>
+
+
+
+    <div class="user-area">
+
+      <span>
+        Welcome, {{userName}} 👋
+      </span>
+
+
+      <button
+        class="logout-btn"
+        (click)="logout()">
+
+        Logout
+
+      </button>
+
+
+    </div>
+
+
+  </header>
+
+
+
+
+
+  <main class="content">
+
+
+    <!-- Messages -->
+
+    <div
+      class="message success"
+      *ngIf="successMessage">
+
+      {{successMessage}}
+
+    </div>
+
+
+
+    <div
+      class="message error"
+      *ngIf="errorMessage">
+
+      {{errorMessage}}
+
+    </div>
+
+
+
+
+
+
+    <!-- Hero -->
+
+    <section class="welcome-card">
+
+
+      <div>
+
+        <span class="badge">
+          🤖 AI Career Assistant
+        </span>
+
+
+        <h1>
+          Find Your Dream Job Faster
+        </h1>
+
+
+        <p>
+
+          Upload your resume and let our AI
+          recommend the best opportunities
+          for you.
+
+        </p>
+
+
+      </div>
+
+
+
+      <div class="score-card"
+           *ngIf="profile">
+
+
+        <h2>
+          AI Profile
+        </h2>
+
+
+        <strong>
+          {{profileCompletion}}%
+        </strong>
+
+
+        <p>
+          Match Score
+        </p>
+
+
+      </div>
+
+
+    </section>
+
+
+
+<!-- Professional Profile -->
+
+<section class="dashboard-card">
+
+
+  <h2>
+    👤 Professional Profile
+  </h2>
+
+
+  <p class="desc">
+    Manage your personal and professional information.
+  </p>
+
+
+
+  <!-- Profile Image -->
+
+  <div class="profile-image-section">
+
+
+    <img
+      *ngIf="profile?.profileImage"
+      [src]="'http://localhost:5004' + profile.profileImage"
+      class="profile-image"
+    />
+
+
+    <input
+      type="file"
+      accept="image/*"
+      (change)="onImageSelected($event)"
+    />
+
+
+    <button
+      class="primary-btn"
+      (click)="uploadProfileImage()">
+
+      Upload Photo
+
+    </button>
+
+
+  </div>
+
+
+
+
+
+  <!-- Profile Form -->
+
+
+  <div class="profile-form">
+
+
+    <div class="form-group">
+
+      <label>
+        Headline
+      </label>
+
+      <input
+        type="text"
+        [(ngModel)]="profileForm.headline"
+        placeholder="Software Engineer"
+      />
+
+    </div>
+
+
+
+
+
+    <div class="form-group">
+
+      <label>
+        Phone Number
+      </label>
+
+      <input
+        type="text"
+        [(ngModel)]="profileForm.phone"
+        placeholder="0712345678"
+      />
+
+    </div>
+
+
+
+
+
+
+    <div class="form-group">
+
+      <label>
+        Address
+      </label>
+
+      <input
+        type="text"
+        [(ngModel)]="profileForm.address"
+        placeholder="Colombo"
+      />
+
+    </div>
+
+
+
+
+
+
+
+    <div class="form-group">
+
+      <label>
+        Education
+      </label>
+
+      <input
+        type="text"
+        [(ngModel)]="profileForm.education"
+        placeholder="BSc Software Engineering"
+      />
+
+    </div>
+
+
+
+
+
+
+
+
+    <div class="form-group">
+
+      <label>
+        Experience Years
+      </label>
+
+      <input
+        type="number"
+        [(ngModel)]="profileForm.experienceYears"
+      />
+
+    </div>
+
+
+
+
+
+
+
+
+    <div class="form-group">
+
+      <label>
+        Certifications
+      </label>
+
+
+      <textarea
+
+        rows="3"
+
+        [(ngModel)]="profileForm.certifications"
+
+        placeholder="AWS, Azure, Google Certificate">
+
+      </textarea>
+
+
+    </div>
+
+
+
+
+    <button
+
+      class="primary-btn"
+
+      (click)="updateProfile()"
+
+      [disabled]="isUpdatingProfile">
+
+
+      {{isUpdatingProfile ?
+      'Saving...' :
+      'Save Profile'}}
+
+
+    </button>
+
+
+
+  </div>
+
+
+</section>
+
+<!-- Professional Profile -->
+
+<section class="dashboard-card">
+
+
+
+
+<div class="profile-image-section">
+
+
+
+
+
+
+
+
+</div>
+
+
+
+<div class="profile-info"
+*ngIf="profile">
+
+
+<p>
+<b>Name:</b> {{profile.fullName}}
+</p>
+
+
+<p>
+<b>Phone:</b> {{profile.phone}}
+</p>
+
+
+<p>
+<b>Address:</b> {{profile.address}}
+</p>
+
+
+
+
+  </div>
+
+  </section>
+
+    <!-- Resume -->
+
+    <section class="dashboard-card">
+
+
+      <h2>
+        🤖 AI Resume Analysis
+      </h2>
+
+
+      <p class="desc">
+
+        Upload your PDF resume and extract
+        skills automatically.
+
+      </p>
+
+
+
+      <div class="upload-area">
+
+
+        <input
+          type="file"
+          accept=".pdf"
+          (change)="onFileSelected($event)"
+        />
+
+
+
+        <button
+          class="primary-btn"
+          (click)="uploadResume()"
+          [disabled]="isUploading">
+
+
+          {{isUploading ?
+          'Analyzing Resume...' :
+          'Upload & Analyze'}}
+
+
+        </button>
+
+
+      </div>
+
+
+
+
+      <div
+        class="skills"
+        *ngIf="profile?.skills">
+
+
+        <h3>
+          Extracted Skills
+        </h3>
+
+
+        <span
+          *ngFor="let skill of profile.skills.split(',')">
+
+          {{skill.trim()}}
+
+        </span>
+
+
+      </div>
+      <!-- Resume Actions -->
+
+<div
+  class="resume-actions"
+  *ngIf="profile?.resumeUrl">
+
+
+  <h3>
+    📄 My Resume
+  </h3>
+
+
+  <a
+    class="resume-btn"
+    [href]="'http://localhost:5004' + profile.resumeUrl"
+    target="_blank">
+
+    👁 View Resume
+
+  </a>
+
+
+
+  <a
+    class="resume-btn download"
+    [href]="'http://localhost:5004' + profile.resumeUrl"
+    download>
+
+    ⬇ Download Resume
+
+  </a>
+
+
+</div>
+
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+    <!-- Applications -->
+
+
+    <section class="dashboard-card">
+
+
+      <div class="section-header">
+
+
+        <h2>
+          📋 My Applications
+        </h2>
+
+
+      </div>
+
+
+
+      <div
+        *ngIf="isLoadingApplications"
+        class="loading">
+
+        Loading applications...
+
+      </div>
+
+
+
+
+
+      <div
+        *ngIf="!isLoadingApplications &&
+        myApplications.length === 0"
+        class="empty">
+
+        No applications yet.
+
+      </div>
+
+
+
+
+
+      <div
+        class="application-card"
+        *ngFor="let app of myApplications">
+
+
+        <div>
+
+
+          <h3>
+            {{app.jobTitle}}
+          </h3>
+
+
+          <p>
+            Applied:
+            {{app.appliedDate | date:'mediumDate'}}
+          </p>
+
+
+        </div>
+
+
+
+       <div class="application-status">
+
+
+  <strong>
+    {{app.matchScore}}%
+  </strong>
+
+
+  <div class="status-timeline">
+
+
+    <div 
+      class="step"
+      [class.active]="true">
+
+      ✓ Submitted
+
+    </div>
+
+
+
+    <div 
+      class="line"
+      [class.active]="
+      app.status !== 'Submitted'">
+
+    </div>
+
+
+
+    <div 
+      class="step"
+      [class.active]="
+      app.status === 'Shortlisted' ||
+      app.status === 'Interviewed' ||
+      app.status === 'Hired'">
+
+      ✓ Shortlisted
+
+    </div>
+
+
+
+    <div 
+      class="line"
+      [class.active]="
+      app.status === 'Interviewed' ||
+      app.status === 'Hired'">
+
+    </div>
+
+
+
+    <div 
+      class="step"
+      [class.active]="
+      app.status === 'Interviewed' ||
+      app.status === 'Hired'">
+
+      ✓ Interview
+
+    </div>
+
+
+
+    <div 
+      class="line"
+      [class.active]="
+      app.status === 'Hired'">
+
+    </div>
+
+
+
+    <div 
+      class="step"
+      [class.active]="
+      app.status === 'Hired'">
+
+      ✓ Hired
+
+    </div>
+
+
+  </div>
+
+
+</div>
+
+
+
+      </div>
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+    <!-- Jobs -->
+
+
+    <section>
+
+
+      <h2 class="title">
+
+        🤖 AI Recommended Jobs
+
+      </h2>
+
+
+
+
+      <div
+        class="jobs-grid">
+
+
+        <div
+          class="job-card"
+          *ngFor="let job of jobs">
+
+
+
+          <div class="job-top">
+
+
+            <h3>
+              {{job.title}}
+            </h3>
+
+
+
+            <span
+              *ngIf="job.matchScore">
+
+              {{job.matchScore}}%
+
+            </span>
+
+
+          </div>
+
+
+
+
+          <p>
+            📍 {{job.location}}
+          </p>
+
+
+
+          <p class="description">
+
+            {{job.description}}
+
+          </p>
+
+
+
+
+          <div
+            class="skills-text"
+            *ngIf="job.requiredSkills">
+
+            {{job.requiredSkills}}
+
+          </div>
+
+
+
+
+
+          <button
+
+            class="apply-btn"
+
+            *ngIf="!hasApplied(job.id)"
+
+            (click)="applyToJob(job.id)">
+
+
+            Apply Now
+
+
+          </button>
+
+
+
+
+
+          <button
+
+            class="apply-btn applied"
+
+            *ngIf="hasApplied(job.id)"
+
+            disabled>
+
+
+            ✓ Applied
+
+
+          </button>
+
+
+
+
+        </div>
+
+
+      </div>
+
+
+    </section>
+
+
+
+  </main>
+
+
+</div>

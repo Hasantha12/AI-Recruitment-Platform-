@@ -1,0 +1,232 @@
+<div class="dashboard">
+
+  <header class="dashboard-header">
+    <div>
+      <h1>Welcome, {{ userName }}</h1>
+      <p>Hiring Manager Dashboard</p>
+    </div>
+
+    <button class="logout-btn" (click)="logout()">
+      Logout
+    </button>
+  </header>
+
+  <!-- Statistics -->
+
+  <div class="stats-grid">
+
+    <div class="stat-card">
+      <h3>Total Evaluations</h3>
+      <h2>{{ stats.totalEvaluations }}</h2>
+    </div>
+
+    <div class="stat-card">
+      <h3>Pending</h3>
+      <h2>{{ stats.pendingApplications }}</h2>
+    </div>
+
+    <div class="stat-card">
+      <h3>Hired</h3>
+      <h2>{{ stats.hiredApplications }}</h2>
+    </div>
+
+    <div class="stat-card">
+      <h3>Rejected</h3>
+      <h2>{{ stats.rejectedApplications }}</h2>
+    </div>
+
+    <div class="stat-card">
+      <h3>Average Score</h3>
+      <h2>{{ stats.averageScore | number:'1.0-1' }}%</h2>
+    </div>
+
+  </div>
+
+  <div class="content">
+
+    <h2>Job Postings</h2>
+
+    <div
+      class="message success"
+      *ngIf="successMessage">
+
+      {{ successMessage }}
+
+    </div>
+
+    <div
+      class="message error"
+      *ngIf="errorMessage">
+
+      {{ errorMessage }}
+
+    </div>
+
+    <div
+      *ngIf="isLoading"
+      class="loading">
+
+      Loading jobs...
+
+    </div>
+
+    <div
+      *ngIf="!isLoading && jobs.length===0"
+      class="empty-state">
+
+      No jobs available.
+
+    </div>
+
+    <div
+      class="jobs-list"
+      *ngIf="!isLoading && jobs.length>0">
+
+      <div
+        class="job-row"
+        *ngFor="let job of jobs">
+
+        <div class="job-info">
+
+          <h3>{{ job.title }}</h3>
+
+          <p>
+
+            {{ job.location }}
+
+            •
+
+            {{ job.status }}
+
+            •
+
+            {{ job.applicationCount }}
+
+            applications
+
+          </p>
+
+        </div>
+
+        <button
+          class="view-btn"
+          (click)="viewApplications(job.id)">
+
+          Review Candidates
+
+        </button>
+
+      </div>
+
+    </div>
+
+    <div
+      class="applications-section"
+      *ngIf="selectedJobId">
+
+      <h2>Candidate Evaluations</h2>
+
+      <div
+        class="empty-state"
+        *ngIf="applications.length===0">
+
+        No applications yet.
+
+      </div>
+
+      <div
+        class="app-card"
+        *ngFor="let app of applications">
+
+        <div class="app-header">
+
+          <strong>
+
+            {{ app.candidateName }}
+
+          </strong>
+
+          <span
+            class="match-score"
+            *ngIf="app.matchScore!=null">
+
+            Match : {{ app.matchScore }}%
+
+          </span>
+
+          <span class="status-badge">
+
+            {{ app.status }}
+
+          </span>
+
+        </div>
+
+        <div class="eval-form">
+
+          <div class="form-row">
+
+            <label>
+
+              Evaluation Score
+
+            </label>
+
+            <input
+              type="number"
+              min="0"
+              max="100"
+              [(ngModel)]="evalScore[app.id]">
+
+          </div>
+
+          <div class="form-row">
+
+            <label>
+
+              Interview Feedback
+
+            </label>
+
+            <textarea
+              rows="3"
+              [(ngModel)]="evalFeedback[app.id]">
+
+            </textarea>
+
+          </div>
+
+          <div class="eval-actions">
+
+            <button
+              (click)="submitDecision(app.id,'Advance')">
+
+              Advance
+
+            </button>
+
+            <button
+              (click)="submitDecision(app.id,'Hire')">
+
+              Hire
+
+            </button>
+
+            <button
+              (click)="submitDecision(app.id,'Reject')">
+
+              Reject
+
+            </button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>

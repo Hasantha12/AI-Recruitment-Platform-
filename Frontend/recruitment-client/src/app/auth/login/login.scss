@@ -1,0 +1,384 @@
+.login-page {
+
+  min-height:100vh;
+
+  display:flex;
+
+  align-items:center;
+
+  justify-content:center;
+
+  gap:80px;
+
+  padding:40px;
+
+  position:relative;
+
+  overflow:hidden;
+
+
+  background:
+
+  linear-gradient(
+    135deg,
+    #2563eb,
+    #7c3aed
+  );
+
+}
+
+
+
+.background-shape {
+
+  position:absolute;
+
+  border-radius:50%;
+
+  filter:blur(80px);
+
+  opacity:.4;
+
+}
+
+
+.shape-one {
+
+  width:400px;
+
+  height:400px;
+
+  background:#38bdf8;
+
+  top:-100px;
+
+  left:-100px;
+
+}
+
+
+
+.shape-two {
+
+  width:400px;
+
+  height:400px;
+
+  background:#c084fc;
+
+  bottom:-100px;
+
+  right:-100px;
+
+}
+
+
+
+
+// Brand Section
+
+
+.brand-section {
+
+  color:white;
+
+  max-width:450px;
+
+  z-index:1;
+
+}
+
+
+.brand-logo {
+
+  width:70px;
+
+  height:70px;
+
+  border-radius:20px;
+
+  display:flex;
+
+  align-items:center;
+
+  justify-content:center;
+
+  font-size:32px;
+
+  font-weight:800;
+
+  background:white;
+
+  color:#2563eb;
+
+  margin-bottom:20px;
+
+}
+
+
+
+.brand-section h1 {
+
+  font-size:32px;
+
+}
+
+
+
+.brand-section h2 {
+
+  font-size:50px;
+
+  line-height:1.1;
+
+  margin:25px 0;
+
+}
+
+
+
+.brand-section p {
+
+  font-size:18px;
+
+  opacity:.9;
+
+  line-height:1.6;
+
+}
+
+
+
+.features div {
+
+  margin-top:18px;
+
+  font-size:17px;
+
+}
+
+
+
+
+// Login Card
+
+
+.login-card {
+
+
+  width:420px;
+
+  background:
+
+  rgba(255,255,255,.95);
+
+
+  padding:45px;
+
+  border-radius:30px;
+
+
+  box-shadow:
+
+  0 30px 70px rgba(0,0,0,.25);
+
+
+  z-index:1;
+
+
+}
+
+
+
+.login-card h1 {
+
+  text-align:center;
+
+  color:#0f172a;
+
+}
+
+
+
+.subtitle {
+
+  text-align:center;
+
+  color:#64748b;
+
+  margin-bottom:30px;
+
+}
+
+
+
+
+.form-group {
+
+
+  margin-bottom:20px;
+
+
+}
+
+
+
+.form-group label {
+
+  display:block;
+
+  margin-bottom:8px;
+
+  font-weight:600;
+
+  color:#334155;
+
+}
+
+
+
+.form-group input {
+
+
+  width:100%;
+
+  padding:15px;
+
+  border-radius:12px;
+
+  border:1px solid #cbd5e1;
+
+  font-size:15px;
+
+}
+
+
+
+.form-group input:focus {
+
+  outline:none;
+
+  border-color:#2563eb;
+
+}
+
+
+
+.error-message {
+
+  background:#fee2e2;
+
+  color:#991b1b;
+
+  padding:12px;
+
+  border-radius:10px;
+
+  margin-bottom:15px;
+
+}
+
+
+
+button[type="submit"] {
+
+
+  width:100%;
+
+  padding:15px;
+
+  border:none;
+
+  border-radius:30px;
+
+  background:#2563eb;
+
+  color:white;
+
+  font-size:16px;
+
+  font-weight:700;
+
+  cursor:pointer;
+
+
+}
+
+
+
+button[type="submit"]:hover:not(:disabled){
+
+  background:#1d4ed8;
+
+}
+
+
+
+button:disabled {
+
+  background:#94a3b8;
+
+}
+
+
+
+.switch-link {
+
+  text-align:center;
+
+  margin-top:25px;
+
+  color:#64748b;
+
+}
+
+
+
+.switch-link a {
+
+  color:#2563eb;
+
+  font-weight:700;
+
+  text-decoration:none;
+
+}
+
+
+
+@media(max-width:900px){
+
+
+.login-page {
+
+flex-direction:column;
+
+gap:30px;
+
+}
+
+
+.brand-section {
+
+text-align:center;
+
+}
+
+
+.brand-section h2 {
+
+font-size:38px;
+
+}
+
+
+.login-card {
+
+width:100%;
+
+max-width:420px;
+
+}
+
+
+}

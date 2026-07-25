@@ -1,0 +1,536 @@
+<div class="dashboard">
+
+
+<header class="dashboard-header">
+
+  <div class="brand">
+    <div class="logo">
+      AI
+    </div>
+
+    <span>
+      RecruitAI
+    </span>
+  </div>
+
+
+  <div class="user-area">
+
+    <span>
+      Welcome, {{userName}} 👋
+    </span>
+
+
+    <button
+      type="button"
+      class="logout-btn"
+      (click)="logout()">
+
+      Logout
+
+    </button>
+
+  </div>
+
+</header>
+
+
+
+
+
+<div class="content">
+
+
+<div 
+class="message success"
+*ngIf="successMessage">
+
+{{successMessage}}
+
+</div>
+
+
+<div 
+class="message error"
+*ngIf="errorMessage">
+
+{{errorMessage}}
+
+</div>
+
+
+
+
+
+<section class="hero-card">
+
+
+<span class="badge">
+
+🤖 AI Recruitment Manager
+
+</span>
+
+
+<h1>
+Build your dream team faster
+</h1>
+
+
+<p>
+Manage jobs, candidates and interviews with AI powered recruitment tools.
+</p>
+
+
+</section>
+
+
+
+
+
+
+
+<section class="stats">
+
+
+<div class="stat-card">
+
+<h2>
+{{jobs.length}}
+</h2>
+
+<p>
+Active Jobs
+</p>
+
+</div>
+
+
+
+<div class="stat-card">
+
+<h2>
+{{applications.length}}
+</h2>
+
+<p>
+Candidates
+</p>
+
+</div>
+
+
+
+<div class="stat-card">
+
+<h2>
+{{interviews.length}}
+</h2>
+
+<p>
+Interviews
+</p>
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<section class="panel">
+
+
+<div class="panel-header">
+
+
+<h2>
+💼 My Job Postings
+</h2>
+
+
+<button
+type="button"
+class="primary-btn"
+(click)="togglePostForm()">
+
+{{showPostForm ? 'Cancel' : '+ Post New Job'}}
+
+</button>
+
+
+</div>
+
+
+<!-- Post Job Form -->
+
+<div class="post-form" *ngIf="showPostForm">
+
+  <h3>Post New Job</h3>
+
+
+  <div class="form-group">
+
+    <label>
+      Job Title
+    </label>
+
+    <input
+      type="text"
+      [(ngModel)]="newJob.title"
+      name="title"
+      placeholder="Enter job title">
+
+  </div>
+
+
+
+  <div class="form-group">
+
+    <label>
+      Description
+    </label>
+
+    <textarea
+      rows="4"
+      [(ngModel)]="newJob.description"
+      name="description"
+      placeholder="Enter description">
+    </textarea>
+
+  </div>
+
+
+
+  <div class="form-group">
+
+    <label>
+      Required Skills
+    </label>
+
+    <input
+      type="text"
+      [(ngModel)]="newJob.requiredSkills"
+      name="skills"
+      placeholder="Java, Angular, SQL">
+
+  </div>
+
+
+
+  <div class="form-group">
+
+    <label>
+      Location
+    </label>
+
+    <input
+      type="text"
+      [(ngModel)]="newJob.location"
+      name="location"
+      placeholder="Colombo">
+
+  </div>
+
+
+
+  <button
+    type="button"
+    class="save-btn"
+    (click)="postJob()">
+
+    Save Job
+
+  </button>
+
+
+</div>
+
+
+
+
+<div
+class="job-grid">
+
+
+<div
+class="job-card"
+*ngFor="let job of jobs">
+
+
+<div class="job-header">
+
+
+<h3>
+{{job.title}}
+</h3>
+
+
+
+<span
+class="status-badge"
+[ngClass]="{
+'open': job.status === 'Open'
+}">
+
+{{job.status}}
+
+</span>
+
+
+</div>
+
+
+
+<p>
+📍 {{job.location}}
+</p>
+
+
+
+<div class="applications-count">
+
+👥 {{job.applicationCount}} Applications
+
+</div>
+
+
+
+
+<div class="actions">
+
+
+<button
+type="button"
+class="view-btn"
+(click)="viewApplications(job.id)">
+
+View Candidates
+
+</button>
+
+
+
+
+<button
+type="button"
+class="close-btn"
+*ngIf="job.status === 'Open'"
+(click)="closeJob(job.id)">
+
+Close
+
+</button>
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+<section
+class="panel"
+*ngIf="selectedJobId">
+
+
+<h2>
+🤖 AI Ranked Candidates
+</h2>
+
+
+
+
+
+<div
+class="candidate-card"
+*ngFor="let app of filteredApplications">
+
+
+<div>
+
+<h3>
+{{app.candidateName}}
+</h3>
+
+
+<p>
+AI Match Score
+</p>
+
+
+<strong>
+{{app.matchScore}}%
+</strong>
+
+
+</div>
+
+
+
+
+
+<div class="candidate-actions">
+
+
+<button
+type="button"
+class="shortlist"
+(click)="updateApplicationStatus(app.id,'Shortlisted')">
+
+Shortlist
+
+</button>
+
+
+<button
+type="button"
+class="reject"
+(click)="updateApplicationStatus(app.id,'Rejected')">
+
+Reject
+
+</button>
+
+
+<button
+type="button"
+class="hire"
+(click)="updateApplicationStatus(app.id,'Hired')">
+
+Hire
+
+</button>
+
+
+<button
+type="button"
+class="interview"
+(click)="openInterviewForm(app.id)">
+
+📅 Interview
+
+</button>
+
+
+
+</div>
+
+
+
+</div>
+
+<!-- Interview Form -->
+
+<div class="interview-form" *ngIf="showInterviewForm">
+
+  <h3>📅 Schedule Interview</h3>
+
+
+  <div class="form-group">
+
+    <label>
+      Date & Time
+    </label>
+
+    <input
+      type="datetime-local"
+      [(ngModel)]="newInterview.scheduledTime"
+      name="scheduledTime">
+
+  </div>
+
+
+
+  <div class="form-group">
+
+    <label>
+      Interview Mode
+    </label>
+
+    <select
+      [(ngModel)]="newInterview.mode"
+      name="mode">
+
+      <option value="Online">
+        Online
+      </option>
+
+      <option value="Physical">
+        Physical
+      </option>
+
+      <option value="Hybrid">
+        Hybrid
+      </option>
+
+    </select>
+
+  </div>
+
+
+
+  <div class="form-group">
+
+    <label>
+      Notes
+    </label>
+
+    <textarea
+      rows="3"
+      [(ngModel)]="newInterview.notes"
+      name="notes">
+    </textarea>
+
+  </div>
+
+
+
+  <button
+    type="button"
+    class="save-btn"
+    (click)="scheduleInterview()">
+
+    Save Interview
+
+  </button>
+
+
+
+  <button
+    type="button"
+    class="cancel-btn"
+    (click)="resetInterviewForm()">
+
+    Cancel
+
+  </button>
+
+
+</div>
+
+</section>
+
+
+
+
+</div>
+
+
+</div>
