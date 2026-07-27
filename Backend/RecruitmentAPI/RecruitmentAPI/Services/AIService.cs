@@ -1,4 +1,4 @@
-﻿using RecruitmentAPI.Services.Interfaces;
+using RecruitmentAPI.Services.Interfaces;
 
 namespace RecruitmentAPI.Services
 {

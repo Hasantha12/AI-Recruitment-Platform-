@@ -1,4 +1,4 @@
-﻿using RecruitmentAPI.DTOs;
+using RecruitmentAPI.DTOs;
 using RecruitmentAPI.Repositories.Interfaces;
 using RecruitmentAPI.Services.Interfaces;
 
